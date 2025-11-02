@@ -1,0 +1,60 @@
+# Sensitive information
+.cursor/
+*.env
+*.env.local
+*.env.*.local
+.env
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build outputs
+out/
+dist/
+build/
+artifacts/
+cache/
+coverage/
+.vercel/
+.next/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Hardhat
+deployments/
+types/
+fhevmTemp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Package manager locks (keep package-lock.json but ignore others)
+pnpm-lock.yaml
+yarn.lock
+
