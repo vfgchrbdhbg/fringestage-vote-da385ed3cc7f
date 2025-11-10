@@ -1,0 +1,34 @@
+{
+  "name": "fringestage-vote-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:mock": "node scripts/check-hardhat-node.mjs && node scripts/genabi.mjs && next dev",
+    "dev": "node scripts/genabi.mjs && next dev",
+    "build": "node scripts/genabi.mjs && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "check:static": "node scripts/check-static.mjs"
+  },
+  "dependencies": {
+    "@fhevm/mock-utils": "0.3.0-1",
+    "@zama-fhe/relayer-sdk": "^0.3.0-5",
+    "ethers": "^6.13.0",
+    "fhevmjs": "^0.5.0",
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.8",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.0",
+    "copy-webpack-plugin": "^13.0.1",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.8.3"
+  }
+}
